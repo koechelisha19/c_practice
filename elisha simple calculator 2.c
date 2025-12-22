@@ -6,23 +6,23 @@ int main()
 	double num2;
 	char symbol;
 	
-	printf("Enter a number:");
+	printf("Enter a first number:");
 	scanf("%lf", &num1);
 	printf("Enter a symbol:");
 	scanf(" %c", &symbol);
-	printf("Enter a number:");
+	printf("Enter a second number:");
 	scanf("%lf", &num2);
  if (symbol == '+') {
- 	printf("%f", num1 + num2 );}
+ 	printf("%2f", num1 + num2 );}
 	 
  	else if (symbol == '-') {
-		 printf("%f", num1 - num2);
+		 printf("%2f", num1 - num2);
 	 }
 	  else if (symbol == '/') {
-		 printf("%f", num1 / num2);
+		 printf("%2f", num1 / num2);
  }
 	else if (symbol == '*') {
-		 printf("%f", num1 * num2);}
+		 printf("%2f", num1 * num2);}
 		 else {
 			 printf("invalid Input");
 		 }
